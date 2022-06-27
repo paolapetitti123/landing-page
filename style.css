@@ -173,3 +173,11 @@ figure {
     text-align: center;
     text-decoration: none;
 }
+
+.footer {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+}
