@@ -96,6 +96,8 @@ li {
     height: 170px;
     border-radius: 12px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .images {
