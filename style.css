@@ -17,6 +17,10 @@ body {
     justify-content: space-between;
 }
 
+.welcomeBanner {
+    margin-top: 7%;
+}
+
 .header h3 {
     color: #F9FAF8;
     font-size: 24px;
@@ -42,14 +46,16 @@ li {
 
 .welcomeBanner img {
     width: 600px;
-    padding-bottom: 2%;
+    height: 300px;
+    object-fit: cover;
+    padding-bottom: 5%;
 }
 
 .title {
     font-size: 48px;
     font-weight:bolder;
     color: #f9faf8;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 .subheader {
@@ -73,14 +79,97 @@ li {
     background-color: white;
     padding-left: 10em;
     padding-right: 10em;
+    padding-bottom: 5%;
 }
 
 .infoTitle {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .randomInformation img {
-    width: 100px;
+    width: 170px;
+    height: 170px;
+    border-radius: 12px;
+    display: flex;
+}
+
+.images {
+    display: flex;
+}
+
+figcaption {
+    font-size: 12px;
+    color: #7e7e7e;
+    padding-top: 5%;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteSection {
+    background-color: #E5E7EB;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.authorName {
+    text-align: right;
+    font-weight: bold;
+}
+
+.callToAction {
+    background-color: white;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.blueBorder {
+    background-color: #3882f6;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.actionTitle {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.actSubTitle {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.actButton {
+    border: 2px solid white;
+    background-color:transparent;
+    color: #E5E7EB;
+    border-radius: 12px;
+    padding: 10px 50px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
 }
