@@ -4,13 +4,17 @@ body {
     min-height: 100vh;
     flex-direction: column;
     background-color: #1f2937;
+    margin: 0;
+    padding; 0;
 }
 
 .header, .welcomeBanner {
-   
+    margin-left: 10em;
+    margin-right: 10em;
     min-height: auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header h3 {
@@ -23,7 +27,9 @@ body {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    justify-content: right;
 }
+
 
 ul {
     list-style: none;
@@ -31,9 +37,50 @@ ul {
 
 li {
     display: inline;
-    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .welcomeBanner img {
-    width: 500px;
+    width: 600px;
+    padding-bottom: 2%;
+}
+
+.title {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+    margin-bottom: 2%;
+}
+
+.subheader {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 2%;
+}
+
+#signUpButton {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 50px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.randomInformation {
+    background-color: white;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.infoTitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.randomInformation img {
+    width: 100px;
 }
